@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.job-list, .application-form {
+  width: 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul#jobs li {
+  padding: 10px;
+  background: #ecf0f1;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+ul#jobs li:hover {
+  background-color: #bdc3c7;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2ecc71;
+}
+
+#confirmation {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}

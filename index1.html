@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Application Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Job Application Portal</h1>
+  </header>
+
+  <main>
+    <section class="job-list">
+      <h2>Available Jobs</h2>
+      <ul id="jobs">
+        <li data-job="Web Developer">Web Developer</li>
+        <li data-job="Graphic Designer">Graphic Designer</li>
+        <li data-job="Data Analyst">Data Analyst</li>
+      </ul>
+    </section>
+
+    <section class="application-form">
+      <h2>Apply Now</h2>
+      <form id="jobForm">
+        <label>Full Name:
+          <input type="text" id="name" required />
+        </label>
+        <label>Email:
+          <input type="email" id="email" required />
+        </label>
+        <label>Selected Job:
+          <input type="text" id="selectedJob" readonly />
+        </label>
+        <label>Why should we hire you?
+          <textarea id="message" required></textarea>
+        </label>
+        <button type="submit">Submit Application</button>
+      </form>
+      <div id="confirmation"></div>
+    </section>
+  </main>
+
+  <script src="script1.js"></script>
+</body>
+</html>
